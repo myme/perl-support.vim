@@ -217,6 +217,7 @@ call Perl_SetLocalVariable("Perl_ProfilerTimestamp      ")
 call Perl_SetLocalVariable("Perl_TemplateOverwrittenMsg ")
 call Perl_SetLocalVariable("Perl_XtermDefaults          ")
 call Perl_SetLocalVariable("Perl_GlobalTemplateFile     ")
+call Perl_SetLocalVariable("Perl_LocalTemplateFile      ")
 
 if exists('g:Perl_GlobalTemplateFile') && g:Perl_GlobalTemplateFile != ''
 	let s:Perl_GlobalTemplateDir	= fnamemodify( s:Perl_GlobalTemplateFile, ":h" )
